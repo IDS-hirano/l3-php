@@ -1,0 +1,12 @@
+before0
+<?php
+
+$genre = "映画\n";
+$title ="時をかける少女\n";
+$review = "人生最高傑作アニメ。\n\n青春厨としてはたまらない甘酸っぱい青春ストーリー。\n\nちあきのイケメンさは言うまでもない。\n\n人にお金を払ってでもみて欲しい作品。\n\n早く見たほうがいいよ。\nTime waits for no one.\n";
+$line = "---------------------------------\n";
+echo "ジャンル：{$genre}\n{$line}\n";
+echo "タイトル：{$title}\n{$line}\n";
+echo "感想：\n{$review}\n{$line}\n";
+
+?>
